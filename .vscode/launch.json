@@ -1,0 +1,982 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BetterRead",
+            "request": "launch",
+            "mainClass": "strings.BetterRead",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SimpleRead",
+            "request": "launch",
+            "mainClass": "strings.SimpleRead",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ThinkJava",
+            "request": "launch",
+            "mainClass": "ThinkJava",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "LabeledFor",
+            "request": "launch",
+            "mainClass": "control.LabeledFor",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "AlwaysFinally",
+            "request": "launch",
+            "mainClass": "exceptions.AlwaysFinally",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Cleanup",
+            "request": "launch",
+            "mainClass": "exceptions.Cleanup",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "CleanupIdiom",
+            "request": "launch",
+            "mainClass": "exceptions.CleanupIdiom",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "DynamicFields",
+            "request": "launch",
+            "mainClass": "exceptions.DynamicFields",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionMethods",
+            "request": "launch",
+            "mainClass": "exceptions.ExceptionMethods",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ExceptionSilencer",
+            "request": "launch",
+            "mainClass": "exceptions.ExceptionSilencer",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ExtraFeatures",
+            "request": "launch",
+            "mainClass": "exceptions.ExtraFeatures",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "FinallyWorks",
+            "request": "launch",
+            "mainClass": "exceptions.FinallyWorks",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "FullConstructors",
+            "request": "launch",
+            "mainClass": "exceptions.FullConstructors",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Human",
+            "request": "launch",
+            "mainClass": "exceptions.Human",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "InheritingExceptions",
+            "request": "launch",
+            "mainClass": "exceptions.InheritingExceptions",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "LoggingExceptions",
+            "request": "launch",
+            "mainClass": "exceptions.LoggingExceptions",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "LoggingExceptions2",
+            "request": "launch",
+            "mainClass": "exceptions.LoggingExceptions2",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "LostMessage",
+            "request": "launch",
+            "mainClass": "exceptions.LostMessage",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "MainException",
+            "request": "launch",
+            "mainClass": "exceptions.MainException",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "MultipleReturns",
+            "request": "launch",
+            "mainClass": "exceptions.MultipleReturns",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "NeverCaught",
+            "request": "launch",
+            "mainClass": "exceptions.NeverCaught",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "OnOffSwitch",
+            "request": "launch",
+            "mainClass": "exceptions.OnOffSwitch",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "RethrowNew",
+            "request": "launch",
+            "mainClass": "exceptions.RethrowNew",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Rethrowing",
+            "request": "launch",
+            "mainClass": "exceptions.Rethrowing",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "StormyInning",
+            "request": "launch",
+            "mainClass": "exceptions.StormyInning",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "TurnOffChecking",
+            "request": "launch",
+            "mainClass": "exceptions.TurnOffChecking",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "WhoCalled",
+            "request": "launch",
+            "mainClass": "exceptions.WhoCalled",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "WithFinally",
+            "request": "launch",
+            "mainClass": "exceptions.WithFinally",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "CoffeeGenerator",
+            "request": "launch",
+            "mainClass": "generics.coffee.CoffeeGenerator",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "AdapterMethodIdiom",
+            "request": "launch",
+            "mainClass": "holding.AdapterMethodIdiom",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "AddingGroups",
+            "request": "launch",
+            "mainClass": "holding.AddingGroups",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ApplesAndOrangesWithGenerics",
+            "request": "launch",
+            "mainClass": "holding.ApplesAndOrangesWithGenerics",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ApplesAndOrangesWithoutGenerics",
+            "request": "launch",
+            "mainClass": "holding.ApplesAndOrangesWithoutGenerics",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ArrayIsNotIterable",
+            "request": "launch",
+            "mainClass": "holding.ArrayIsNotIterable",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "AsListInference",
+            "request": "launch",
+            "mainClass": "holding.AsListInference",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "CollectionSequence",
+            "request": "launch",
+            "mainClass": "holding.CollectionSequence",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ContainerMethods",
+            "request": "launch",
+            "mainClass": "holding.ContainerMethods",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "CrossContainerItertion",
+            "request": "launch",
+            "mainClass": "holding.CrossContainerItertion",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "EnvironmentVariables",
+            "request": "launch",
+            "mainClass": "holding.EnvironmentVariables",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ForEachCollections",
+            "request": "launch",
+            "mainClass": "holding.ForEachCollections",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "GenericsAndUpcasting",
+            "request": "launch",
+            "mainClass": "holding.GenericsAndUpcasting",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "InterfaceVsIterator",
+            "request": "launch",
+            "mainClass": "holding.InterfaceVsIterator",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "IterableClass",
+            "request": "launch",
+            "mainClass": "holding.IterableClass",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListFeatures",
+            "request": "launch",
+            "mainClass": "holding.LinkedListFeatures",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ListFeatures",
+            "request": "launch",
+            "mainClass": "holding.ListFeatures",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ListIteration",
+            "request": "launch",
+            "mainClass": "holding.ListIteration",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "MapOfList",
+            "request": "launch",
+            "mainClass": "holding.MapOfList",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ModifyingArraysAsList",
+            "request": "launch",
+            "mainClass": "holding.ModifyingArraysAsList",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "MultiIterableClass",
+            "request": "launch",
+            "mainClass": "holding.MultiIterableClass",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "NonCollectionSequence",
+            "request": "launch",
+            "mainClass": "holding.NonCollectionSequence",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "PetMap",
+            "request": "launch",
+            "mainClass": "holding.PetMap",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "PrintingContainers",
+            "request": "launch",
+            "mainClass": "holding.PrintingContainers",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "PriorityQueueDemo",
+            "request": "launch",
+            "mainClass": "holding.PriorityQueueDemo",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "QueueDemo",
+            "request": "launch",
+            "mainClass": "holding.QueueDemo",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SetOfInteger",
+            "request": "launch",
+            "mainClass": "holding.SetOfInteger",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SetOperations",
+            "request": "launch",
+            "mainClass": "holding.SetOperations",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SimpleCollection",
+            "request": "launch",
+            "mainClass": "holding.SimpleCollection",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SimpleIteration",
+            "request": "launch",
+            "mainClass": "holding.SimpleIteration",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SortedSetOfInteger",
+            "request": "launch",
+            "mainClass": "holding.SortedSetOfInteger",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "StackCollision",
+            "request": "launch",
+            "mainClass": "holding.StackCollision",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "StackTest",
+            "request": "launch",
+            "mainClass": "holding.StackTest",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Statistics",
+            "request": "launch",
+            "mainClass": "holding.Statistics",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "UniqueWords",
+            "request": "launch",
+            "mainClass": "holding.UniqueWords",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "UniqueWordsAlphabetic",
+            "request": "launch",
+            "mainClass": "holding.UniqueWordsAlphabetic",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Burrito",
+            "request": "launch",
+            "mainClass": "initialization.Burrito",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "StaticInitialization",
+            "request": "launch",
+            "mainClass": "initialization.StaticInitialization",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "VarArgs",
+            "request": "launch",
+            "mainClass": "initialization.VarArgs",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "AnonymousConstructor",
+            "request": "launch",
+            "mainClass": "innerclasses.AnonymousConstructor",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "BigEgg",
+            "request": "launch",
+            "mainClass": "innerclasses.BigEgg",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "BigEgg2",
+            "request": "launch",
+            "mainClass": "innerclasses.BigEgg2",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Callbacks",
+            "request": "launch",
+            "mainClass": "innerclasses.Callbacks",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ClassInInterface$Test",
+            "request": "launch",
+            "mainClass": "innerclasses.ClassInInterface$Test",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "DotNew",
+            "request": "launch",
+            "mainClass": "innerclasses.DotNew",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "DotThis",
+            "request": "launch",
+            "mainClass": "innerclasses.DotThis",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Factories",
+            "request": "launch",
+            "mainClass": "innerclasses.Factories",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Games",
+            "request": "launch",
+            "mainClass": "innerclasses.Games",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "GreenhouseController",
+            "request": "launch",
+            "mainClass": "innerclasses.GreenhouseController",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "InheritInner",
+            "request": "launch",
+            "mainClass": "innerclasses.InheritInner",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "LocalInnerClass",
+            "request": "launch",
+            "mainClass": "innerclasses.LocalInnerClass",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "MultiImplementation",
+            "request": "launch",
+            "mainClass": "innerclasses.MultiImplementation",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "MultiInterfaces",
+            "request": "launch",
+            "mainClass": "innerclasses.MultiInterfaces",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "MultiNestingAccess",
+            "request": "launch",
+            "mainClass": "innerclasses.MultiNestingAccess",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel1",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel1",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel10",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel10",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel11",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel11",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel2",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel2",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel3",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel3",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel5",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel5",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel6",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel6",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel7",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel7",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel7b",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel7b",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel8",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel8",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Parcel9",
+            "request": "launch",
+            "mainClass": "innerclasses.Parcel9",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Sequence",
+            "request": "launch",
+            "mainClass": "innerclasses.Sequence",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "TestBed$Tester",
+            "request": "launch",
+            "mainClass": "innerclasses.TestBed$Tester",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "TestParcel",
+            "request": "launch",
+            "mainClass": "innerclasses.TestParcel",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "HorrorShow",
+            "request": "launch",
+            "mainClass": "interfaces.HorrorShow",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "RandomWords",
+            "request": "launch",
+            "mainClass": "interfaces.RandomWords",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Apply",
+            "request": "launch",
+            "mainClass": "interfaces.classprocessor.Apply",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "StringProcessor",
+            "request": "launch",
+            "mainClass": "interfaces.interfaceprocessor.StringProcessor",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "HelloDate",
+            "request": "launch",
+            "mainClass": "object.HelloDate",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ShowProperties",
+            "request": "launch",
+            "mainClass": "object.ShowProperties",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ReferenceCounting",
+            "request": "launch",
+            "mainClass": "polymorphism.ReferenceCounting",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Shapes",
+            "request": "launch",
+            "mainClass": "polymorphism.Shapes",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Music",
+            "request": "launch",
+            "mainClass": "polymorphism.music.Music",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Bath",
+            "request": "launch",
+            "mainClass": "reusing.Bath",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Beetle",
+            "request": "launch",
+            "mainClass": "reusing.Beetle",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Cleanser",
+            "request": "launch",
+            "mainClass": "reusing.Cleanser",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Detergent",
+            "request": "launch",
+            "mainClass": "reusing.Detergent",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "FinalData",
+            "request": "launch",
+            "mainClass": "reusing.FinalData",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SpaceShipDelegation",
+            "request": "launch",
+            "mainClass": "reusing.SpaceShipDelegation",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SprinklerSystem",
+            "request": "launch",
+            "mainClass": "reusing.SprinklerSystem",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListDisplay",
+            "request": "launch",
+            "mainClass": "strings.ArrayListDisplay",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Concatenation",
+            "request": "launch",
+            "mainClass": "strings.Concatenation",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Conversion",
+            "request": "launch",
+            "mainClass": "strings.Conversion",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "DatabaseException",
+            "request": "launch",
+            "mainClass": "strings.DatabaseException",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Finding",
+            "request": "launch",
+            "mainClass": "strings.Finding",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Groups",
+            "request": "launch",
+            "mainClass": "strings.Groups",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Immutable",
+            "request": "launch",
+            "mainClass": "strings.Immutable",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteRecursion",
+            "request": "launch",
+            "mainClass": "strings.InfiniteRecursion",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "IntegerMatch",
+            "request": "launch",
+            "mainClass": "strings.IntegerMatch",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "JGrep",
+            "request": "launch",
+            "mainClass": "strings.JGrep",
+            "projectName": "ThinkingInJava_412469dd",
+            "args": "src\\strings\\JGrep.java \\b[Ssct]\\w+"
+        },
+        {
+            "type": "java",
+            "name": "ReFlags",
+            "request": "launch",
+            "mainClass": "strings.ReFlags",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Receipt",
+            "request": "launch",
+            "mainClass": "strings.Receipt",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Replacing",
+            "request": "launch",
+            "mainClass": "strings.Replacing",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Rudolph",
+            "request": "launch",
+            "mainClass": "strings.Rudolph",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SimpleFormat",
+            "request": "launch",
+            "mainClass": "strings.SimpleFormat",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SplitDemo",
+            "request": "launch",
+            "mainClass": "strings.SplitDemo",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Splitting",
+            "request": "launch",
+            "mainClass": "strings.Splitting",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "StartEnd",
+            "request": "launch",
+            "mainClass": "strings.StartEnd",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "TestRegularExpression",
+            "request": "launch",
+            "mainClass": "strings.TestRegularExpression",
+            "projectName": "ThinkingInJava_412469dd",
+            "args": "abcabcabcdefabc abc+ (abc)+ (abc){2,}"
+        },
+        {
+            "type": "java",
+            "name": "TheReplacements",
+            "request": "launch",
+            "mainClass": "strings.TheReplacements",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Turtle",
+            "request": "launch",
+            "mainClass": "strings.Turtle",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "UsingStringBuilder",
+            "request": "launch",
+            "mainClass": "strings.UsingStringBuilder",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "LiteralPetCreator",
+            "request": "launch",
+            "mainClass": "typeinfo.pets.LiteralPetCreator",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ContainerMethodDifferences",
+            "request": "launch",
+            "mainClass": "util.ContainerMethodDifferences",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Hex",
+            "request": "launch",
+            "mainClass": "util.Hex",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "TextFile",
+            "request": "launch",
+            "mainClass": "util.TextFile",
+            "projectName": "ThinkingInJava_412469dd"
+        }
+    ]
+}
