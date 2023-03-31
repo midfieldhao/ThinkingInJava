@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FilledList",
+            "request": "launch",
+            "mainClass": "typeinfo.FilledList",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ClassInitialization",
+            "request": "launch",
+            "mainClass": "typeinfo.ClassInitialization",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ToyTest",
+            "request": "launch",
+            "mainClass": "typeinfo.toys.ToyTest",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "SweetShop",
+            "request": "launch",
+            "mainClass": "typeinfo.SweetShop",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "Shapes",
+            "request": "launch",
+            "mainClass": "typeinfo.Shapes",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ReplacingStringTokenizer",
+            "request": "launch",
+            "mainClass": "strings.ReplacingStringTokenizer",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ThreatAnalyzer",
+            "request": "launch",
+            "mainClass": "strings.ThreatAnalyzer",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ScannerDelimiter",
+            "request": "launch",
+            "mainClass": "strings.ScannerDelimiter",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
             "name": "BetterRead",
             "request": "launch",
             "mainClass": "strings.BetterRead",
