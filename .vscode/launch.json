@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Petcount",
+            "request": "launch",
+            "mainClass": "typeinfo.Petcount",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
             "name": "FilledList",
             "request": "launch",
             "mainClass": "typeinfo.FilledList",

@@ -4,8 +4,6 @@ package typeinfo;
 
 import java.util.*;
 
-import javax.management.RuntimeErrorException;
-
 class CountedInteger {
     private static long counter;
     private final long id = counter++;
