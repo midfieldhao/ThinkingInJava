@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RegisteredFactories",
+            "request": "launch",
+            "mainClass": "typeinfo.RegisteredFactories",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "PetCount4",
+            "request": "launch",
+            "mainClass": "typeinfo.PetCount4",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "PetCount3",
+            "request": "launch",
+            "mainClass": "typeinfo.PetCount3",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "PetCount2",
+            "request": "launch",
+            "mainClass": "typeinfo.PetCount2",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
             "name": "Petcount",
             "request": "launch",
             "mainClass": "typeinfo.Petcount",
