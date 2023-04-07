@@ -6,6 +6,28 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SimpleProxyDemo",
+            "request": "launch",
+            "mainClass": "typeinfo.SimpleProxyDemo",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
+            "name": "ShowMethods",
+            "request": "launch",
+            "mainClass": "typeinfo.ShowMethods",
+            "projectName": "ThinkingInJava_412469dd",
+            "args": "ShowMethods"
+        },
+        {
+            "type": "java",
+            "name": "FamilyVsExactType",
+            "request": "launch",
+            "mainClass": "typeinfo.FamilyVsExactType",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
             "name": "RegisteredFactories",
             "request": "launch",
             "mainClass": "typeinfo.RegisteredFactories",
