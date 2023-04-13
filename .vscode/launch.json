@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InterfaceViolation",
+            "request": "launch",
+            "mainClass": "typeinfo.InterfaceViolation",
+            "projectName": "ThinkingInJava_4522dafe"
+        },
+        {
+            "type": "java",
+            "name": "NullRobot",
+            "request": "launch",
+            "mainClass": "typeinfo.NullRobot",
+            "projectName": "ThinkingInJava_4522dafe"
+        },
+        {
+            "type": "java",
+            "name": "SnowRemovealRobot",
+            "request": "launch",
+            "mainClass": "typeinfo.SnowRemovealRobot",
+            "projectName": "ThinkingInJava_4522dafe"
+        },
+        {
+            "type": "java",
             "name": "Staff",
             "request": "launch",
             "mainClass": "typeinfo.Staff",
