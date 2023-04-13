@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Staff",
+            "request": "launch",
+            "mainClass": "typeinfo.Staff",
+            "projectName": "ThinkingInJava_4522dafe"
+        },
+        {
+            "type": "java",
+            "name": "SelectingMethods",
+            "request": "launch",
+            "mainClass": "typeinfo.SelectingMethods",
+            "projectName": "ThinkingInJava_4522dafe"
+        },
+        {
+            "type": "java",
+            "name": "SimpleDynamicProxy",
+            "request": "launch",
+            "mainClass": "typeinfo.SimpleDynamicProxy",
+            "projectName": "ThinkingInJava_4522dafe"
+        },
+        {
+            "type": "java",
+            "name": "SimpleDynamicProxy",
+            "request": "launch",
+            "mainClass": "typeinfo.SimpleDynamicProxy",
+            "projectName": "ThinkingInJava_412469dd"
+        },
+        {
+            "type": "java",
             "name": "SimpleProxyDemo",
             "request": "launch",
             "mainClass": "typeinfo.SimpleProxyDemo",
