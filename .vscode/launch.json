@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ModifyingPrivateFields",
+            "request": "launch",
+            "mainClass": "typeinfo.ModifyingPrivateFields",
+            "projectName": "ThinkingInJava_4522dafe"
+        },
+        {
+            "type": "java",
+            "name": "AnonymousImplementation",
+            "request": "launch",
+            "mainClass": "typeinfo.AnonymousImplementation",
+            "projectName": "ThinkingInJava_4522dafe"
+        },
+        {
+            "type": "java",
+            "name": "InnerImplementation",
+            "request": "launch",
+            "mainClass": "typeinfo.InnerImplementation",
+            "projectName": "ThinkingInJava_4522dafe"
+        },
+        {
+            "type": "java",
+            "name": "HiddenImplementation",
+            "request": "launch",
+            "mainClass": "typeinfo.HiddenImplementation",
+            "projectName": "ThinkingInJava_4522dafe"
+        },
+        {
+            "type": "java",
             "name": "InterfaceViolation",
             "request": "launch",
             "mainClass": "typeinfo.InterfaceViolation",
